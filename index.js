@@ -9,7 +9,6 @@ input.value=0;
 let attempts=0;
 let ranNum=Math.floor(Math.random() * (100 - 1 + 1)) + 1;
 let answer;
-label.innerText=ranNum;
 
 button.onclick=function(){
     attempts++;
